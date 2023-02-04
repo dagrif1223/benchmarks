@@ -29,4 +29,4 @@ def float_div():
 float_div()
 
 end = time.time()
-print('The total time for the float benchmark was', end-start)
+print('The total time in sec for the float benchmark was', end-start)
