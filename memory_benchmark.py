@@ -9,3 +9,12 @@ def write_array():
 
 write_array()
   
+def read_array():
+  global nums
+  for i in nums:
+    a = i
+    
+read_array()
+
+end = time.time()
+print('The total time for the memory benchmark was', end-start)
