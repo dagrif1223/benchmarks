@@ -17,4 +17,4 @@ def read_array():
 read_array()
 
 end = time.time()
-print('The total time for the memory benchmark was', end-start)
+print('The total time in sec for the memory benchmark was', end-start)
